@@ -22,6 +22,7 @@ Route::get('/user/{user_id}/profile/{profile_id}', 'ProfileController@show')->na
 Route::get('/question/{question_id}/answer/{answer_id}', 'AnswerController@show')->name('answer.show');
 Route::get('/user/{user_id}/profile/{profile_id}', 'ProfileController@show')->name('profile.show');
 Route::get('/user/{user_id}/profile', 'ProfileController@create')->name('profile.create');
+Route::post('/user/{user_id}/profile/', 'ProfileController@store')->name('profile.store');
 Route::resources([
     'question' => 'QuestionController',
 ]);
