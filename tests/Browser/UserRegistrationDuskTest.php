@@ -17,9 +17,9 @@ class RegisterUserTest extends DuskTestCase
                 ->assertTitle('Laravel')
                 ->clickLink('Register')
                 ->assertSee('Register')
-                ->type('#email', 'suru200@gmail.com')
-                ->type('#password', 'Welcome1')
-                ->type('#password-confirm', 'Welcome1')
+                ->type('#email', 'sc22633@njit.edu')
+                ->type('#password', '1234567')
+                ->type('#password-confirm', '123456')
                 ->click('button[type="submit"]');
         });
     }
