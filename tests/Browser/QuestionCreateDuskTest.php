@@ -10,7 +10,7 @@ class AddQuestionTest extends DuskTestCase
      *
      * @return void
      */
-    public function testAddQuestion()
+    public function testQuestion()
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('http://localhost:8000')
