@@ -7,7 +7,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 class DeleteAnswerTest extends DuskTestCase
 {
     /**
-     * A Dusk test example.
+     * A Dusk test to Delete Answers
      *
      * @return void
      */

@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 class AddAnswerTest extends DuskTestCase
 {
     /**
-     * A Dusk test example.
+     * A Dusk test Create Answer is Created
      *
      * @return void
      */
